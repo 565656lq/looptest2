@@ -2,58 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b698fd1-f5bb-497b-a900-29fd6a618dd1" name="Default" comment="20180207 commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/src/test/java/drivers/chromedriver.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__com_beust_jcommander_1_64.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__com_google_code_findbugs_annotations_2_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__com_google_inject_extensions_guice_multibindings_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__com_google_inject_guice_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__org_javassist_javassist_3_19_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__org_reflections_reflections_0_9_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__org_testng_testng_6_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/libraries/Maven__uk_sponte_automation_selenium_pom_3_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/looptest.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/src/test/java/com/commens/methods/PressKeys.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/src/test/java/com/commens/pageobject/AddSaleEOPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/src/test/java/com/commens/pageobject/ChooseNodePage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/src/test/java/com/commens/pageobject/LoginPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/src/test/java/com/commens/pageobject/Navigation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/src/test/java/com/commens/pageobject/OrderNavigation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/src/test/java/com/commens/pageobject/SaleEOListPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/src/test/java/com/test/base/TestBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/src/test/java/com/test/cases/LoginPageTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/src/test/java/com/test/cases/SaleEOPageTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/testng.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/target/test-classes/com/commens/methods/PressKeys.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/target/test-classes/com/commens/pageobject/AddSaleEOPage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/target/test-classes/com/commens/pageobject/ChooseNodePage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/target/test-classes/com/commens/pageobject/LoginPage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/target/test-classes/com/commens/pageobject/Navigation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/target/test-classes/com/commens/pageobject/OrderNavigation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/target/test-classes/com/commens/pageobject/SaleEOListPage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/target/test-classes/com/test/base/TestBase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/target/test-classes/com/test/cases/LoginPageTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../looptest/target/test-classes/com/test/cases/SaleEOPageTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../looptest/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../looptest/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../looptest/out/" />
     <ignored path="$PROJECT_DIR$/../looptest/target/" />
@@ -926,8 +885,16 @@
       <workItem from="1517828356521" duration="662000" />
       <workItem from="1517883787120" duration="129000" />
       <workItem from="1517904495686" duration="17243000" />
-      <workItem from="1517972864536" duration="5200000" />
+      <workItem from="1517972864536" duration="6497000" />
     </task>
+    <task id="LOCAL-00001" summary="20180207 commit">
+      <created>1518010094063</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1518010094063</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -963,7 +930,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68897000" />
+    <option name="totallyTimeSpent" value="70194000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
