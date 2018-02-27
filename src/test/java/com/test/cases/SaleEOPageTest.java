@@ -32,12 +32,18 @@ public class SaleEOPageTest extends TestBase {
         String goodsTaxfreeUnitprice = "20";
 
 
-        // 从导航选择销售EO
-        Navigation Navigation = PageFactory.initElements(driver, Navigation.class);
-        Navigation.clickOnOrderManage();
+        /**
+         * 进入销售EO列表页*/
+        // 方法1：从导航选择销售EO
+//        Navigation Navigation = PageFactory.initElements(driver, Navigation.class);
+//        Navigation.clickOnOrderManage();
+//
+//        OrderNavigation OrderNavigation = PageFactory.initElements(driver, OrderNavigation.class);
+//        OrderNavigation.clickOnSaleEO();
 
-        OrderNavigation OrderNavigation = PageFactory.initElements(driver, OrderNavigation.class);
-        OrderNavigation.clickOnSaleEO();
+        // 方法2：直接访问url
+        Thread.sleep(1000);
+        driver.get("http://loopcc.cn/#/oms/goods/sales_eo");
         Thread.sleep(1000);
 
         // 添加销售EO
