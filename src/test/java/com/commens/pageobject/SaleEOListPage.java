@@ -21,7 +21,7 @@ public class SaleEOListPage {
     WebElement importButton;
 
     // 添加按钮
-    @FindBy(how = How.XPATH, using = "//*[@id=\"LoopApplicationWorkshop\"]/div[2]/div/div[1]/div[2]/button[2]")
+    @FindBy(how = How.XPATH, using = "//*[@id=\"LoopApplicationWorkshop\"]/div[2]/div/div[1]/div[2]/button[2]/span")
     WebElement addButton;
 
     // 定义动作
