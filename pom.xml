@@ -5,33 +5,116 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>Loop</groupId>
-    <artifactId>looptest</artifactId>
+    <artifactId>Loop_LQ</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <!-- 插件-->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+
+            <!--==================ReportNG 相关 添加插件 关联testNg.xml==============================================-->
+
+            <plugin>
+
+                <groupId>org.apache.maven.plugins</groupId>
+
+                <artifactId>maven-surefire-plugin</artifactId>
+
+                <version>2.17</version>
+
+                <configuration>
+
+                    <!--这里设置关联的testNG.xml路径，项目根目录下的res文件夹里面-->
+                    <suiteXmlFiles>
+                        <file>res/testNG.xml</file>
+                    </suiteXmlFiles>
+
+                </configuration>
+
+            </plugin>
+
+
+            <!-- 添加插件,添加ReportNg的监听器，修改最后的TestNg的报告 -->
+
+            <plugin>
+
+                <groupId>org.apache.maven.plugins</groupId>
+
+                <artifactId>maven-surefire-plugin</artifactId>
+
+                <version>2.5</version>
+
+                <configuration>
+
+                    <properties>
+
+                        <property>
+
+                            <name>usedefaultlisteners</name>
+
+                            <value>false</value>
+
+                        </property>
+
+                        <property>
+                            <name>listener</name>
+                            <value>org.uncommons.reportng.HTMLReporter, org.uncommons.reportng.JUnitXMLReporter</value>
+                        </property>
+
+                    </properties>
+
+                    <workingDirectory>target/</workingDirectory>
+
+                    <forkMode>always</forkMode>
+
+                </configuration>
+
+            </plugin>
+
+        </plugins>
+    </build>
+
     <dependencies>
+        <!--Selenium-Java 包-->
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>3.8.1</version>
         </dependency>
+
+        <!--====================================浏览器驱动Chrome/IE/FireFox==============================================-->
+
+        <!--FireFox浏览器驱动-->
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-firefox-driver -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-firefox-driver</artifactId>
             <version>3.8.1</version>
         </dependency>
+        <!--Chrome 浏览器驱动-->
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-chrome-driver</artifactId>
             <version>3.8.1</version>
         </dependency>
+        <!--IE浏览器驱动-->
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-ie-driver -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-ie-driver</artifactId>
             <version>3.8.1</version>
         </dependency>
+        <!--TestNG 包-->
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
         <dependency>
             <groupId>org.testng</groupId>
@@ -46,7 +129,162 @@
             <scope>test</scope>
         </dependency>
 
+        <!--=================ReportNG 相关包／Maven 引用依赖不同的jar=====================================-->
+
+        <!-- 依赖testNg -->
+
+        <dependency>
+
+            <groupId>org.testng</groupId>
+
+            <artifactId>testng</artifactId>
+
+            <version>6.9.10</version>
+
+            <scope>test</scope>
+
+        </dependency>
+
+
+        <dependency>
+
+            <groupId>com.google.inject</groupId>
+
+            <artifactId>guice</artifactId>
+
+            <version>4.0</version>
+
+        </dependency>
+
+
+        <!-- 依赖reportNg 关联testNg -->
+
+        <dependency>
+
+            <groupId>org.uncommons</groupId>
+
+            <artifactId>reportng</artifactId>
+
+            <version>1.1.4</version>
+
+            <scope>test</scope>
+
+            <exclusions>
+
+                <exclusion>
+
+                    <groupId>org.testng</groupId>
+
+                    <artifactId>testng</artifactId>
+
+                </exclusion>
+
+            </exclusions>
+
+        </dependency>
+
+
+        <!-- 依赖Guice -->
+
+        <dependency>
+
+            <groupId>com.google.inject</groupId>
+
+            <artifactId>guice</artifactId>
+
+            <version>4.0</version>
+
+            <scope>test</scope>
+
+        </dependency>
+
+        <dependency>
+
+            <groupId>velocity</groupId>
+
+            <artifactId>velocity-dep</artifactId>
+
+            <version>1.4</version>
+
+        </dependency>
+
+        <dependency>
+
+            <groupId>log4j</groupId>
+
+            <artifactId>log4j</artifactId>
+
+            <version>1.2.17</version>
+
+        </dependency>
+
+
+        <!--======================Log4j2 包================================================-->
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.6.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.6.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+            <version>2.6.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.21</version>
+        </dependency>
+    <!--======================================Excel 接口配置=====================================-->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.9</version>
+        </dependency>
 
     </dependencies>
+
+    <!--======================================ReportNG 相关配置=====================================-->
+    <!--ReportNG 配置开始-->
+
+    <!-- maven 运行测试name -->
+
+    <!--<name>Report_Test</name>-->
+
+    <!--<url>http://maven.apache.org</url>-->
+
+    <!-- maven 引用远程库 -->
+
+    <repositories>
+
+        <repository>
+
+            <id>java-net</id>
+
+            <url>http://download.java.net/maven/2</url>
+
+        </repository>
+
+    </repositories>
+
+    <!-- maven 参数配置，这里引用不同的testng.xml -->
+
+    <properties>
+
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <xmlFileName>testng.xml</xmlFileName>
+
+    </properties>
+
 
 </project>
