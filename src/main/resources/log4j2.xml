@@ -40,7 +40,7 @@
             <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n"/>
         </File>
 
-        <File name="ApplicationLog" fileName="${LOG_HOME}/Loop.log">
+        <File name="LoopLog" fileName="${LOG_HOME}/Loop.log">
             <PatternLayout pattern="%5p [%t] %d{yyyy-MM-dd HH:mm:ss} (%F:%L) %m%n"/>
         </File>
     </Appenders>
@@ -50,7 +50,7 @@
         <!-- 定义logger，只有定义了logger并引入了appender，appender才会生效 -->
         <root level="DeBug">
             <appender-ref ref="console"/>
-            <appender-ref ref="ApplicationLog"/>
+            <appender-ref ref="LoopLog"/>
         </root>
     </Loggers>
 
